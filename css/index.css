@@ -95,3 +95,20 @@ input[type=text], select, textarea, phone {
     background-color: #f2f2f2;
     padding: 20px;
   }
+  /* media query */
+  @media screen and (max-width: 600px) {
+    .nav {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    p {
+      font-size: 80px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    p {
+      font-size: 30px;
+    }
+  }
